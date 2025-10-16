@@ -1,1 +1,23 @@
 node_modules/
+
+
+# --- Build output ---
+dist/
+public/bundle.js
+public/bundle.js.map
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- Environment files ---
+.env
+.env.local
+.env.*.local
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
